@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Abertura Anime</string>
+
+    <string name="bleach">Bleach</string>
+    <string name="cavaleiros">Cavaleiros dos Zodiaco</string>
+    <string name="fairy">Fairy Tail</string>
+    <string name="hunter">Hunter X Hunter</string>
+    <string name="omega">Cavaleiros do Zodiaco Omega</string>
+    <string name="naruto">Naruto Classico</string>
+    <string name="narutoShippuden">Naruto Shippuden</string>
+    <string name="dragon">Dragon Ball Z</string>
+    <string name="dragonSuper">Dragon Ball Super</string>
+    <string name="parar">Parar</string>
+    <string name="descriNarutoShippuden">Naruto é uma série de mangá shōnen escrita e ilustrada por Masashi Kishimoto. Conta a história de Naruto Uzumaki, um jovem ninja que constantemente procura por reconhecimento e sonha em se tornar Hokage, o ninja líder e o mais forte de sua vila</string>
+    <string name="descriBleach">Bleach (ブリーチ, Burīchi?) é uma série de mangá escrita e ilustrada por Tite Kubo. Bleach segue as aventuras de Ichigo Kurosaki que após ganhar os poderes de um shinigami (死神? literalmente, "Deus da morte"), através de outro Shinigami, Rukia Kuchiki. Com os seus novos poderes, Ichigo é forçado a assumir o dever de guiar almas boas ao mundo pós-vida, a Soul Society, e derrotar os Hollows (espíritos malignos) que tentam devora-las.</string>
+    <string name="descriCavaleiros">Saint Seiya (聖闘士星矢, Seinto Seiya?) ou Os Cavaleiros do Zodíaco (nos países lusófonos) é uma série japonesa de mangá criada em 26 de novembro de 1985, escrita e ilustrada por Masami Kurumada, Foi publicada originalmente na revista Weekly Shōnen Jump de 1986 a 1990[2][3] e adaptada para anime pela Toei Animation de 1986 a 1989.
+A série conta a história de guerreiros místicos chamados "Cavaleiros" (ou "Saints", no original) que lutam vestindo "Armaduras" (ou "Cloths") sagradas baseadas nas diversas constelações. Os Cavaleiros têm como missão defender a reencarnação da deusa grega Athena em sua batalha contra outros deuses do Olimpo, ou de outras mitologias que pretendem dominar a Terra.</string>
+    <string name="descriOmega">Saint Seiya Ω é uma série de anime produzida pela Toei Animation, e spin-off da franquia Saint Seiya, criada, escrita e ilustrada pelo autor japonês Masami Kurumada.</string>
+    <string name="descriHunter">Hunter × Hunter (ハンター×ハンター, Hantā × Hantā?, estilizado como HUNTER×HUNTER) é uma série de mangá escrita e ilustrada por Yoshihiro Togashi. Os capítulos são serializados na revista Weekly Shōnen Jump desde 3 de março de 1998, onde são compilados e publicados pela editora Shueisha, atualmente a série possui 33 volumes em formato tankōbon, embora o mangá tenha frequentemente entrado em hiato desde 2006. A história tem como protagonista Gon Freecss, um menino de 12 anos que quer encontrar o seu pai a todo o custo, então ele decide se tornar um "caçador", assim como ele, e de alguma forma encontrar o seu paradeiro. À medida que a história avança, Gon faz amizade com outros três caçadores aspirantes: Leorio, Kurapika e Killua, que o acompanham em suas aventuras. No Brasil, o mangá é licenciado e publicado pela editora JBC desde 2008.</string>
+    <string name="descriNaruto">Naruto é uma série de mangá shōnen escrita e ilustrada por Masashi Kishimoto. Conta a história de Naruto Uzumaki, um jovem ninja que constantemente procura por reconhecimento e sonha em se tornar Hokage, o ninja líder e o mais forte de sua vila</string>
+    <string name="descriDragon">O título "Dragon Ball Z" foi escolhido pelo próprio Akira Toriyama, sendo Z a última letra do alfabeto e porque o próprio queria terminar a série Dragon Ball, pois estava ficando sem ideias. </string>
+    <string name="descriDragonSuper">Dragon Ball Super é uma série de anime produzida pela Toei Animation, começou a ser exibida no Japão pela Fuji TV em 5 de julho de 2015.</string>
+    <string name="descriFairy">Fairy Tail (フェアリーテイル, Fearī Teiru?) é uma série de mangá escrita e ilustrada Hiro Mashima. A história de Fairy Tail gira em torno das aventuras da guilda, narrada pelo ponto de vista da protagonista Lucy Heartfilia. Lucy é uma jovem maga de 17 anos que deseja tornar-se uma maga da guilda Fairy Tail. Assim sendo, ela chega até a cidade de Hargeon, onde Natsu Dragneel e Happy desembarcam para procurar Igneel, o dragão que criou Natsu como se fosse um filho, e que um dia repentinamente sumiu. Lucy encontra Natsu e Happy ocasionalmente, após se envolverem com um perigoso criminoso que usava o falso nome de "Salamander" (curiosamente a alcunha de Natsu) e tee da “missão”. Porém, assim como existem guildas pacíficas como a Fairy Tail, também existem guildas de mercenários, com fins e objetivos escusos.</string>
+
+
+</resources>
