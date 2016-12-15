@@ -4,72 +4,141 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundo"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/fundo"
     tools:context="com.example.william.kevin.aberturaanime.MainActivity">
     <ScrollView
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
         tools:ignore="UselessParent">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-            <Button
-                android:background="@drawable/bleach"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true"
-                android:id="@+id/btn_bleach" />
+                    <Button
+                        android:id="@+id/btn_bleach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/bleach" />
 
-            <Button
-                android:background="@drawable/cavaleiros_do_zodiaco_omega"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/btn_cavaleiros"
-                android:layout_alignEnd="@+id/btn_bleach"
-                android:id="@+id/btn_omega" />
+                    <Button
+                        android:id="@+id/btn_fairy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fairy_tail"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
 
-            <Button
-                android:background="@drawable/dragon_ball_super"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btn_dragon_super"
-                android:layout_alignTop="@+id/btn_omega"
-                android:layout_alignStart="@+id/btn_fairy" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-            <Button
-                android:background="@drawable/fairy_tail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btn_fairy"
-                android:layout_alignBottom="@+id/btn_bleach"
-                android:layout_centerHorizontal="true" />
+                    <Button
+                        android:id="@+id/btn_cavaleiros"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="14dp"
+                        android:background="@drawable/cavaleiros_do_zodiaco"
+                        tools:ignore="RelativeOverlap"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true" />
 
-            <Button
-                android:background="@drawable/cavaleiros_do_zodiaco"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btn_cavaleiros"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="16dp"
-                tools:ignore="RelativeOverlap" />
+                    <Button
+                        android:id="@+id/btn_omega"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btn_cavaleiros"
+                        android:background="@drawable/cavaleiros_do_zodiaco_omega" />
 
-            <Button
-                android:background="@drawable/naruto_shippuden"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btn_naruto_shippuden"
-                android:layout_below="@+id/btn_cavaleiros"
-                android:layout_alignStart="@+id/btn_cavaleiros"
-                android:layout_marginTop="23dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_dragon_super"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dragon_ball_super" />
+
+                    <Button
+                        android:id="@+id/btn_naruto_shippuden"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="23dp"
+                        android:background="@drawable/naruto_shippuden" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_hunter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/btn_dragon"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/hunter_x_hunter" />
+
+                    <Button
+                        android:id="@+id/btn_dragon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/btn_naruto"
+                        android:background="@drawable/dragon_ball_z" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_naruto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/naruto_classico"
+                        tools:ignore="RtlHardcoded" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </RelativeLayout>
 

@@ -1,11 +1,9 @@
 package com.example.william.kevin.aberturaanime;
 
 import android.media.MediaPlayer;
-import android.media.ResourceBusyException;
-import android.support.annotation.XmlRes;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -18,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
     private Button btnCavaleiros;
     private Button btnFairy;
     private Button btnNarutoShipudesn;
-    //private Button btnNarutoClassico;
+    private Button btnNarutoClassico;
     private Button btnDragonSuper;
-    //private Button btnDragonZ;
+    private Button btnDragonZ;
     private Button btnOmega;
-    //private Button btnHunter;
+    private Button btnHunter;
     private Button btnParar;
 
     @Override
@@ -36,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         btnOmega = (Button) findViewById(R.id.btn_omega);
         btnDragonSuper = (Button) findViewById(R.id.btn_dragon_super);
         btnNarutoShipudesn = (Button) findViewById(R.id.btn_naruto_shippuden);
+        btnNarutoClassico = (Button) findViewById(R.id.btn_naruto);
+        btnHunter = (Button) findViewById(R.id.btn_hunter);
+        btnDragonZ = (Button) findViewById(R.id.btn_dragon);
 
         btnBleach.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -176,6 +177,78 @@ public class MainActivity extends AppCompatActivity {
                 msg.setTitle(R.string.dragonSuper);
                 msg.setMessage(R.string.descriDragonSuper);
                 msg.setIcon(R.drawable.dragon_ball_super);
+                msg.setNeutralButton("OK", null);
+                msg.show();
+                return false;
+            }
+        });
+
+        btnDragonZ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                mp.stop();
+                Toast.makeText(getBaseContext(), getResources().getText(R.string.dragon), Toast.LENGTH_LONG).show();
+                play(view, R.raw.dragon_ball_z);
+            }
+        });
+
+        btnDragonZ.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
+                AlertDialog.Builder msg = new AlertDialog.Builder(MainActivity.this);
+                msg.setTitle(R.string.dragon);
+                msg.setMessage(R.string.descriDragon);
+                msg.setIcon(R.drawable.dragon_ball_z);
+                msg.setNeutralButton("OK", null);
+                msg.show();
+                return false;
+            }
+        });
+
+        btnHunter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                mp.stop();
+                Toast.makeText(getBaseContext(), getResources().getText(R.string.hunter), Toast.LENGTH_LONG).show();
+                play(view, R.raw.hunter_x_hunter);
+            }
+        });
+
+        btnHunter.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
+                AlertDialog.Builder msg = new AlertDialog.Builder(MainActivity.this);
+                msg.setTitle(R.string.hunter);
+                msg.setMessage(R.string.descriHunter);
+                msg.setIcon(R.drawable.hunter_x_hunter);
+                msg.setNeutralButton("OK", null);
+                msg.show();
+                return false;
+            }
+        });
+
+        btnNarutoClassico.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                mp.stop();
+                Toast.makeText(getBaseContext(), getResources().getText(R.string.naruto), Toast.LENGTH_LONG).show();
+                play(view, R.raw.naruto_shippuden);
+            }
+        });
+
+        btnNarutoClassico.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
+                AlertDialog.Builder msg = new AlertDialog.Builder(MainActivity.this);
+                msg.setTitle(R.string.naruto);
+                msg.setMessage(R.string.descriNaruto);
+                msg.setIcon(R.drawable.naruto_classico);
                 msg.setNeutralButton("OK", null);
                 msg.show();
                 return false;
